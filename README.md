@@ -37,7 +37,7 @@
 
 ### 📈 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Atkiya)
+[![Atkiya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Atkiya)](https://github.com/Atkiya/github-readme-stats)
 
 
 
