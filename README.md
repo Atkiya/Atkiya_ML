@@ -37,9 +37,8 @@
 
 ### 📈 GitHub Stats
 
-![Atkiya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Atkiya&show_icons=true&theme=radical)
+![Stats](https://github-readme-stats.vercel.app/api?username=Atkiya)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Atkiya&layout=compact&theme=radical)
 
 
 ### 🏆 Achievements
