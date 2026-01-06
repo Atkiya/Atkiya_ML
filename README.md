@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm [Your Name]
+# Hi there! 👋 I'm Atkiya Maisha
 
 ### 🎓 About Me
 - 🎓 Computer Science student at **East West University (EWU)**, Bangladesh
@@ -47,12 +47,10 @@
 - 📚 Continuous learner in AI/ML
 
 ### 📫 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/yourprofile)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atkiya-maisha-032140250/)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/atkiyamaisha)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:atkiyamaisha112233@gmail.com)
 
-### 💡 Fun Fact
+
 *"Currently exploring the intersection of code-switching in NLP and multilingual chatbot development!"*
 
----
-⭐️ From [YourUsername](https://github.com/yourusername)
