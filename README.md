@@ -4,11 +4,7 @@
 - 🎓 Computer Science student at **East West University (EWU)**, Bangladesh
 - 💻 Full-stack developer passionate about **AI, NLP, and Machine Learning**
 - 🤖 Working on multilingual chatbots with **Rasa, RAG, and Small Language Models**
-- 📊 Data science enthusiast competing on **Kaggle**
-
-### 🔭 Current Projects
-- **Multilingual University Admission Chatbot** - Capstone project using Rasa + RAG + TinyLlama
-- **Student Exam Score Prediction** - Kaggle Playground Series S6E1 (RMSE: 8.94)
+- 📊 Data science enthusiast 
 
 ### 💼 Skills
 
@@ -35,16 +31,7 @@
 ![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
 
-### 📈 GitHub Stats
 
-[![Atkiya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Atkiya)](https://github.com/Atkiya/github-readme-stats)
-
-
-
-### 🏆 Achievements
-- 🥇 Kaggle Playground Series S6E1 Participant
-- 🎯 Building production-ready NLP applications
-- 📚 Continuous learner in AI/ML
 
 ### 📫 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atkiya-maisha-032140250/)
