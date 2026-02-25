@@ -35,7 +35,7 @@
 | 10:90 | 7,884 | 78,853 | 0.8661 | 0.8670 | 0.8661 | 0.8661 | 0.9936 | 137.8 | 5.63 |
 
 ### Best Performance
-- **Best Accuracy**: 97.75% @ 90:10 split ⭐
+- **Best Accuracy**: 97.75% @ 90:10 split 
 - **Best F1 Score**: 0.9775 @ 90:10 split
 - **Best ROC-AUC**: 0.9998 (both 90:10 and 80:20 splits)
 - **Inference Speed**: 0.11 ms per sample
@@ -83,7 +83,7 @@
 | **10:90** | **7,884** | **78,853** | **0.8875** | **0.8882** | **0.8875** | **0.8876** | **0.9951** | **187.0** | **5.81** |
 
 ### Best Performance
-- **Best Accuracy**: 98.79% @ 90:10 split ⭐⭐ **HIGHEST**
+- **Best Accuracy**: 98.79% @ 90:10 split  **HIGHEST**
 - **Best F1 Score**: 0.9879 @ 90:10 split
 - **Best ROC-AUC**: 0.9998 @ 80:20 split
 - **Inference Speed**: 0.15 ms per sample
@@ -146,7 +146,7 @@
 | **10:90** | **7,884** | **78,853** | **0.8515** | **0.8537** | **0.8515** | **0.8513** | **0.9926** | **595.6** | **12.84** |
 
 ### Best Performance
-- **Best Accuracy**: 98.03% @ 90:10 split ⭐
+- **Best Accuracy**: 98.03% @ 90:10 split 
 - **Best F1 Score**: 0.9803 @ 90:10 split
 - **Best ROC-AUC**: 0.9998 @ 90:10 split
 - **Inference Speed**: 2-3 ms per sample
@@ -199,14 +199,14 @@
 
 **Training Time:**
 ```
-TinyMyo:  1,540.6 s  (26 min)  ⚡ Fastest
+TinyMyo:  1,540.6 s  (26 min)   Fastest
 ALR-CNN:  4,077.2 s  (68 min)  2.6× slower
 DeepCNN:  6,657.3 s  (111 min) 4.3× slower
 ```
 
 **Inference Time (entire test set):**
 ```
-TinyMyo:  0.96 s  ⚡ Fastest (0.11 ms/sample)
+TinyMyo:  0.96 s   Fastest (0.11 ms/sample)
 ALR-CNN:  1.04 s  1.08× slower (0.12 ms/sample)
 DeepCNN:  1.86 s  1.94× slower (0.21 ms/sample)
 ```
