@@ -191,9 +191,9 @@
 
 | Rank | Model | Accuracy | F1 Score | ROC-AUC | Parameters | Training Time | Inference | Best For |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-| 1 | **ALR-CNN** | **98.79%** | **0.9879** | 0.9998 | 220K | 68 min | 0.15 ms | Production/Baseline |
-| 2 | **DeepCNN** | 98.03% | 0.9803 | **0.9998** | 1.3M | 111 min | 2-3 ms | Cloud/Accuracy |
-| 3 | **TinyMyo** | 97.75% | 0.9775 | 0.9998 | 102K | 26 min | 0.11 ms | Edge/Mobile |
+| 1 | **ALR-CNN** | **98.79%** | **0.9879** | 0.9998 | 515.3290K | 68 min | 0.15 ms | Production/Baseline |
+| 2 | **DeepCNN** | 98.03% | 0.9803 | **0.9998** | 431.7610K | 111 min | 2-3 ms | Cloud/Accuracy |
+| 3 | **TinyMyo** | 97.75% | 0.9775 | 0.9998 | 102.9290K | 26 min | 0.11 ms | Edge/Mobile |
 
 ### Speed Comparison (90:10 Split)
 
@@ -229,11 +229,11 @@ ALR-CNN   DeepCNN   TinyMyo
 
 ### Memory & Computational Cost
 
-| Model | Parameters | Memory | GFLOPs | Power Profile |
-|:---|:---:|:---:|:---:|:---|
-| **TinyMyo** | 102K | 1.2 MB | Low | Edge-friendly |
-| **ALR-CNN** | 220K | 2.5 MB | Medium | Moderate |
-| **DeepCNN** | 1.3M | 15-20 MB | High | GPU recommended |
+| Model | Parameters | Memory | GFLOPs |
+|:---|:---:|:---:|:---:|
+| **TinyMyo** | 102K | 1.2 MB | 40.7086M |
+| **ALR-CNN** | 220K | 2.5 MB | 149.6977M | 
+| **DeepCNN** | 1.3M | 15-20 MB | 29.3696M |
 
 ---
 
