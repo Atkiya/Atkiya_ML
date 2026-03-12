@@ -431,24 +431,3 @@ seaborn
 tqdm
 thop          # optional, for GFLOPs measurement
 ```
-
-Accelerator: **Kaggle TPU V5e8**
-Python: 3.12
-
----
-
-## Citation
-
-If you use this baseline or the TinyMyo architecture in your work, please cite the original TinyMyo paper and the NinaPro DB7 dataset.
-
-```bibtex
-@dataset{ninapro_db7,
-  title   = {NinaPro Database 7},
-  author  = {Krasoulis, Agamemnon and others},
-  url     = {https://ninapro.hevs.ch/}
-}
-```
-
----
-
-*This repository contains Phase 1 of a two-phase EMG gesture classification study. Phase 2 (SSL pretraining with masked patch reconstruction) will be released separately.*
