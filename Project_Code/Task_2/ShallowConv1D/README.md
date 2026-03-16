@@ -142,10 +142,10 @@ if __name__ == '__main__':
 **EMG / sEMG deep learning — closest related work**
 
 4. Côté-Allard, U., Fall, C.L., Drouin, A., Campeau-Lecours, A., Gosselin, C., Glette, K., Laviolette, F., & Gosselin, B. (2019). **Deep learning for electromyographic hand gesture signal classification using transfer learning.** *IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27*(4), 760–771. https://doi.org/10.1109/TNSRE.2019.2896269
-   *(Stacked conv-BN-ReLU-pool on raw EMG windows, NinaPro evaluation)*
+   *(Closest match — stacked conv-BN-ReLU-pool blocks applied directly to raw EMG time-series windows on NinaPro, same input modality and structural pattern as ShallowConv1D)*
 
 5. Sun, Y., et al. (2020). **Hand Gesture Recognition Using Compact CNN via Surface Electromyography Signals.** *Sensors, 20*(3), 672. https://doi.org/10.3390/s20030672 (PMC7039218)
-   *(Compact CNN with kernel-3 convolutions and GAP for EMG classification — closest architectural match)*
+   *(Related design philosophy — kernel-3 throughout, GAP in place of FC layers, compact parameter count, NinaPro evaluation — but operates on 2D wavelet/spectrogram images rather than raw 1D signals)*
 
 6. Zhai, X., Jelfs, B., Chan, R.H.M., & Tin, C. (2017). **Self-recalibrating surface EMG pattern recognition for neuroprosthesis control based on convolutional neural network.** *Frontiers in Neuroscience, 11*, 379. https://doi.org/10.3389/fnins.2017.00379
 
