@@ -1,7 +1,44 @@
 Attention-based Learning Rate or simply refers to the Attention mechanism integrated into the network.
 
-The notebook uses "ALR" primarily to identify specific components and directories:
+Model Architecture (ALR_CNN)
+The ALR_CNN is built using PyTorch and incorporates a combination of 1D Convolutions and Channel Attention mechanisms to extract temporal features.
 
-Model Name: The custom architecture is named ALR_CNN.
+Convolutional Blocks (_ConvBlock): Each block consists of two consecutive 1D Convolutional layers (using padding to maintain dimensions), separated by Batch Normalization and ReLU activations. Some blocks end with a Max Pooling layer (kernel size 2) to downsample the spatial dimension.
 
-Attention Mechanism: The model includes a specific class called AttentionBlock which uses adaptive average pooling and 1D convolutions to weigh feature channels.
+Attention Blocks (AttentionBlock): Placed directly after convolutional layers, this mechanism squeezes the temporal dimension using global average pooling (AdaptiveAvgPool1d(1)), passes it through a 2-layer convolution bottleneck (reducing channels by a factor of 4, then expanding them back), and applies a Sigmoid activation. This creates an attention map that re-weighs the importance of every feature channel.
+
+Sequential Pathway: The feature extractor cascades through the following dimensions:
+
+ConvBlock (Kernel: 7) → 64 channels (With MaxPool)
+
+AttentionBlock (64)
+
+ConvBlock (Kernel: 5) → 128 channels (With MaxPool)
+
+AttentionBlock (128)
+
+ConvBlock (Kernel: 3) → 256 channels (No Pool)
+
+Classification Head: After flattening the representation with AdaptiveAvgPool1d(1), it goes into a Fully Connected (Linear) layer mapping 256 features to 128, applies a 0.3 Dropout to prevent overfitting, and finally maps the output to the total number of gesture classes.
+
+3. Training Configuration
+The notebook specifies a robust training loop utilizing the following hyperparameters:
+
+Optimizer: Adam optimizer with a learning rate (LR) of 1e-3 and a weight decay of 1e-4.
+
+Loss Function: Standard Cross-Entropy Loss (CrossEntropyLoss).
+
+Learning Rate Scheduler: CosineAnnealingLR to dynamically decay the learning rate towards the maximum number of epochs.
+
+Epochs & Early Stopping: Training runs for a minimum of 80 epochs and a maximum of 100 epochs. It utilizes an "early stopping" mechanism with a patience of 20 epochs, meaning training halts if the validation loss doesn't improve for 20 consecutive epochs.
+
+Batch Size: 256.
+
+4. Evaluation and Metrics
+The script includes a comprehensive Evaluator class to validate the model's performance on test data:
+
+Metrics: It calculates Overall Accuracy, Weighted Precision, Weighted Recall, Weighted F1-Score, and the Multi-class ROC AUC (One-vs-Rest strategy).
+
+Complexity: It automatically tracks the model's GFLOPs (Giga Floating Point Operations) via the thop library to measure how computationally heavy the network is for a given time window.
+
+Visualizations: The code is set up to automatically generate and save both standard and normalized Confusion Matrices, ROC Curves for each class, and Learning Curve plots showing accuracy and loss over epochs.
