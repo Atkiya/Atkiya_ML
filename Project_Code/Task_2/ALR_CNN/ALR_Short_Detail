@@ -1,0 +1,7 @@
+Attention-based Learning Rate or simply refers to the Attention mechanism integrated into the network.
+
+The notebook uses "ALR" primarily to identify specific components and directories:
+
+Model Name: The custom architecture is named ALR_CNN.
+
+Attention Mechanism: The model includes a specific class called AttentionBlock which uses adaptive average pooling and 1D convolutions to weigh feature channels.
