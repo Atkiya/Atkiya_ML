@@ -1,6 +1,6 @@
 ### BYOL Self-Supervised Learning — Classification Accuracy Across Train/Test Splits
 
-**Backbone:** Custom CNN (513,392 params) | **Feature Dim:** 128 | **SSL Epochs:** 250 | **Classes:** 17 (G13–G29)
+**Backbone:** Custom CNN (513,392 params) 
 
 
 | Evaluation     | 90:10  | 80:20  | 70:30  | 60:40  | 50:50  | 40:60  | 30:70  | 20:80  | 10:90  |
