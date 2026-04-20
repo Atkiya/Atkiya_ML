@@ -63,7 +63,7 @@ The dataset is approximately balanced across gestures, with the smallest class (
 ### TinyMyo
 A lightweight, compact architecture designed for efficient on-device inference. Only evaluated at the 90:10 split as a reference point.
 
-### PaperDNN (Feed-Forward DNN)
+### DNN (Feed-Forward DNN)
 A paper-exact feed-forward deep neural network that operates on hand-crafted feature vectors extracted from the raw signal windows.
 
 | Property | Value |
@@ -120,7 +120,7 @@ All metrics are computed on the held-out test set. **Accuracy**, **Precision (W)
 
 ---
 
-### 2. PaperDNN (Feed-Forward DNN)
+### 2. DNN (Feed-Forward DNN)
 
 **Best split: 90:10** — Weighted F1 = 0.9283 | Balanced Accuracy = 0.9284
 
@@ -197,11 +197,11 @@ All metrics are computed on the held-out test set. **Accuracy**, **Precision (W)
 
 Summary of the **best split** results for each model:
 
-| Model | Best Split | Accuracy | F1 (W) | ROC-AUC (W) | Parameters | Train (s) |
+| Model | Best Split | Accuracy | F1 (W) | ROC-AUC (W) | Train (s) |
 |---|:---:|:---:|:---:|:---:|---:|---:|
-| TinyMyo | 90:10 | 0.9781 | 0.9781 | 0.9997 | — | — |
-| PaperDNN | 90:10 | 0.9283 | 0.9283 | 0.9982 | 376,081 | 185.9 |
-| DeepCNN | 90:10 | 0.9803 | 0.9803 | 0.9998 | 5,941,649 | 6,657.3 |
+| TinyMyo | 90:10 | 0.9781 | 0.9781 | 0.9997 | — |
+| PaperDNN | 90:10 | 0.9283 | 0.9283 | 0.9982 | 185.9 |
+| DeepCNN | 90:10 | 0.9803 | 0.9803 | 0.9998 | 6,657.3 |
 | **MKA 1D-CNN** | **80:20** | **0.9876** | **0.9876** | **0.9999** | **515,329** | **2,068.9** |
 
 ### F1 (Weighted) Across All 9 Splits
