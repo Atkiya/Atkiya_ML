@@ -1,9 +1,3 @@
-# TinyMyo — EMG/IMU Gesture Recognition Benchmark
-
-> A comprehensive supervised-learning benchmark for 17-class hand-gesture classification using surface EMG and accelerometer signals. Four models are evaluated across **9 train/test splits** (10 % to 90 % training data) to characterise both peak accuracy and data-efficiency.
-
----
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
